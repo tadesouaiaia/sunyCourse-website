@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="author" content="Tade Souaiaia" />
+      <link rel="shortcut icon" href="../../img/favicon.ico" />
+    <title>Module1 - prsWorkshop</title>
+    <link rel="stylesheet" href="../../css/theme.css" />
+    <link rel="stylesheet" href="../../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+        <link href="../../css/extra.css" rel="stylesheet" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Module1";
+        var mkdocs_page_input_path = "modules/module1.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="../.." class="icon icon-home"> prsWorkshop
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../..">Home</a>
+                </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Pre-Workshop</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../prep_list/">Checklist</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../prep_os/">Operating System</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../prep_terminal/">Terminal Setup</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../prep_software/">Software Installs</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../prep_testing/">Testing</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Pre-Workshop Tutorials</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../tut_intro/">Introduction</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../tut_bash/">Bash Tutorial</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../tut_R/">R Tutorial</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../tut_python/">Python Tutorial</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Modules</span></p>
+              <ul class="current">
+                  <li class="toctree-l1 current"><a class="reference internal current" href="./">Module1</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#table-of-contents">Table of contents</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#key-learning-outcomes">Key learning outcomes</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#mlllm-the-basics">ML/LLM: The Basics</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#questions">Questions?</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#conceptual-exercise-pca">Conceptual Exercise: PCA</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#basic-biostats">Basic Biostats</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#questions_1">Questions?</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#linux-primer">Linux Primer</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#questions_2">Questions?</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#mlllm-training">ML/LLM Training</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#questions_3">Questions?</a>
+    </li>
+        </ul>
+    </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../module2/">Module2</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../module3/">Module3</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Misc</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../misc_linux/">Linux For Windows</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../misc_plink_problem/">Mac Security</a>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../..">prsWorkshop</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../.." class="icon icon-home" aria-label="Docs"></a></li>
+          <li class="breadcrumb-item">Modules</li>
+      <li class="breadcrumb-item active">Module1</li>
+    <li class="wy-breadcrumbs-aside">
+          <a href="https://github.com/tadesouaiaia/prsWorkshop-website/edit/master/docs/modules/module1.md" class="icon icon-github"> Edit on GitHub</a>
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="what-is-machine-learning">What is Machine Learning</h1>
+<h2 id="table-of-contents">Table of contents</h2>
+<ol>
+<li><a href="#key-learning-outcomes">Key learning outcomes</a></li>
+<li><a href="#ML/LLM: The Basics">ML/LLM Basic</a> </li>
+<li><a href="#Basic Biostats">Relevant Biostatistcs</a> </li>
+<li><a href="#Linux Primer">Linux: Learn it, Love it</a> </li>
+<li><a href="#ML/LLM Training">ML/LLM Training - Image Analysis</a> </li>
+</ol>
+<hr />
+<h2 id="key-learning-outcomes">Key learning outcomes</h2>
+<p>In this module we will focus on the basics - how to use linux, basic relevant biostatistical theory (data, statistical approaches, etc), and 
+what machine learning is (and importantly, is not) conceptually. </p>
+<h2 id="mlllm-the-basics">ML/LLM: The Basics</h2>
+<p>To be added.</p>
+<h3 id="questions">Questions?</h3>
+<ul>
+<li>To be added</li>
+</ul>
+<h2 id="conceptual-exercise-pca">Conceptual Exercise: PCA</h2>
+<p>Principle component analysis is a useful technique that allows
+researchers to visualize high dimensional data in lower space by
+rotating the axes in such a way that the lower dimensions (or
+components) maximize the total variance explained.  In statistical
+genetics this involves "rotating" million-dimensional data - something
+that is very hard to visualize!  For this reason, we begin with a
+simpler exercise.  For the following three two dimensional shapes,
+spend some time identifying the principle components or sketching the
+line across for which variance is maximized.  Check your answers
+below:</p>
+<p><img alt="Screenshot" src="../images2/basic_pca_shapes.png" /> </p>
+<p><strong>❓QUESTIONS:</strong></p>
+<details>
+  <summary>What line represents the principle component for the first
+  shape?
+<!--   </summary> The line 4/3(x) + y  -->
+</details>
+
+<details>
+  <summary>What line represents the principle component for the second
+  shape?
+<!--   </summary> The line x+y.  -->
+</details>
+
+<details>
+  <summary>What line represents the principle component for the third
+  shape?
+<!--   </summary> The original X axis already maximize the variance. -->
+</details>
+
+<p>Below you can view the shapes in principal component space. </p>
+<p><img alt="Screenshot" src="../images2/basicResult.png" /> </p>
+<p>Now that we understand how PCA works in two dimensions we will consider a higher dimensional example.  In the three dimensional space below, see if you can visualize a plane that maximizes the variance 
+across two dimensions:   </p>
+<p><img alt="Screenshot" src="../images2/test3d_noPlane.png" /> </p>
+<p>Did you get it right? If so, realize that this is equivalent to what we do in genetics - we find rotate the data through millions of dimensions of space to find the plane 
+that maximizes the variance in two dimensions:  </p>
+<p><img alt="Screenshot" src="../images2/test3d_plane.png" /> </p>
+<p>To run PCA with real data please enter the <strong>exercise3</strong> directory, and type the following command to run PCA on the 1000 Genome data: </p>
+<div class="highlight" style="background: #f8f8f8"><pre style="line-height: 125%;"><span></span><code>./code/plink --bfile data/chr1-22 --indep-pairwise 250 25 0.1 --maf 0.1 --threads 30 --out chr1-22.ldpruned_all_1kgv2
+./code/plink --bfile data/chr1-22 --extract chr1-22.ldpruned_all_1kgv2.prune.in  --pca --threads 30
+</code></pre></div>
+<p>This will generate the principal components that maximize the variance in the data.  To plot the result run the following commands from with an R-terminal: </p>
+<div class="admonition help">
+<p class="admonition-title">R-Code: Generate a PCA Plot</p>
+<div class="highlight" style="background: #f8f8f8"><pre style="line-height: 125%;"><span></span><code>require(&#39;RColorBrewer&#39;)
+options(scipen=100, digits=3)
+eigenvec &lt;- read.table(&#39;plink.eigenvec&#39;, header = F, skip=0, sep = &#39; &#39;)
+rownames(eigenvec) &lt;- eigenvec[,2]
+eigenvec &lt;- eigenvec[,3:ncol(eigenvec)]
+colnames(eigenvec) &lt;- paste(&#39;Principal Component &#39;, c(1:20), sep = &#39;&#39;)
+
+PED &lt;- read.table(&quot;data/all_phase3.king.psam&quot;, header = TRUE, skip = 0, sep = &#39;\t&#39;)
+PED &lt;- PED[which(PED$IID %in% rownames(eigenvec)), ]
+PED &lt;- PED[match(rownames(eigenvec), PED$IID),]
+
+PED$Population &lt;- factor(PED$Population, levels=c(&quot;ACB&quot;,&quot;ASW&quot;,&quot;ESN&quot;,&quot;GWD&quot;,&quot;LWK&quot;,&quot;MSL&quot;,&quot;YRI&quot;,&quot;CLM&quot;,&quot;MXL&quot;,&quot;PEL&quot;,&quot;PUR&quot;,&quot;CDX&quot;,&quot;CHB&quot;,&quot;CHS&quot;,&quot;JPT&quot;,&quot;KHV&quot;,&quot;CEU&quot;,&quot;FIN&quot;,&quot;GBR&quot;,&quot;IBS&quot;,&quot;TSI&quot;,&quot;BEB&quot;,&quot;GIH&quot;,&quot;ITU&quot;,&quot;PJL&quot;,&quot;STU&quot;))
+
+col &lt;- colorRampPalette(c(&quot;yellow&quot;,&quot;yellow&quot;,&quot;yellow&quot;,&quot;yellow&quot;,&quot;yellow&quot;,&quot;yellow&quot;,&quot;yellow&quot;,&quot;forestgreen&quot;,&quot;forestgreen&quot;,&quot;forestgreen&quot;,&quot;forestgreen&quot;,&quot;grey&quot;,&quot;grey&quot;,&quot;grey&quot;,&quot;grey&quot;,&quot;grey&quot;,
+&quot;royalblue&quot;,&quot;royalblue&quot;,&quot;royalblue&quot;,&quot;royalblue&quot;,&quot;royalblue&quot;,&quot;black&quot;,&quot;black&quot;,&quot;black&quot;,&quot;black&quot;,&quot;black&quot;))(length(unique(PED$Population)))[factor(PED$Population)]
+
+project.pca &lt;- eigenvec
+par(mar = c(5,5,5,5), cex = 2.0,cex.main = 7, cex.axis = 2.75, cex.lab = 2.75, mfrow = c(1,2))
+
+plot(project.pca[,1], project.pca[,2],
+     type = &#39;n&#39;,
+     main = &#39;A&#39;,
+     adj = 0.5,
+     xlab = &#39;First component&#39;,
+     ylab = &#39;Second component&#39;,
+     font = 2,
+     font.lab = 2)
+points(project.pca[,1], project.pca[,2], col = col, pch = 20, cex = 2.25)
+legend(&#39;bottomright&#39;,
+       bty = &#39;n&#39;,
+       cex = 3.0,
+       title = &#39;&#39;,
+       c(&#39;AFR&#39;, &#39;AMR&#39;, &#39;EAS&#39;,
+         &#39;EUR&#39;, &#39;SAS&#39;),
+       fill = c(&#39;yellow&#39;, &#39;forestgreen&#39;, &#39;grey&#39;, &#39;royalblue&#39;, &#39;black&#39;))
+
+plot(project.pca[,1], project.pca[,3],
+     type=&quot;n&quot;,
+     main=&quot;B&quot;,
+     adj=0.5,
+     xlab=&quot;First component&quot;,
+     ylab=&quot;Third component&quot;,
+     font=2,
+     font.lab=2)
+points(project.pca[,1], project.pca[,3], col=col, pch=20, cex=2.25)
+</code></pre></div>
+</div>
+<p><strong>❓QUESTIONS:</strong></p>
+<details>
+  <summary>What is distinct about the PC projections of the AMR group relative to other populations?
+<!--  </summary> More disperse -->
+  </details>
+
+<details>
+  <summary>Why does this occur? What does it tell us about ancestry of this group?
+<!--    </summary> Suggest recent admixture?  -->
+</details>
+
+<p><a href="#top"><a href="#table-of-contents">Back to table of contents</a></a></p>
+<h2 id="basic-biostats">Basic Biostats</h2>
+<p>To be added </p>
+<h3 id="questions_1">Questions?</h3>
+<ul>
+<li>To be added 
+<a href="#top"><a href="#table-of-contents">Back to table of contents</a></a></li>
+</ul>
+<h2 id="linux-primer">Linux Primer</h2>
+<p>To be added </p>
+<h3 id="questions_2">Questions?</h3>
+<ul>
+<li>To be added 
+<a href="#top"><a href="#table-of-contents">Back to table of contents</a></a></li>
+</ul>
+<h2 id="mlllm-training">ML/LLM Training</h2>
+<p>To be added </p>
+<h3 id="questions_3">Questions?</h3>
+<ul>
+<li>To be added 
+<a href="#top"><a href="#table-of-contents">Back to table of contents</a></a></li>
+</ul>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../../tut_python/" class="btn btn-neutral float-left" title="Python Tutorial"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../module2/" class="btn btn-neutral float-right" title="Module2">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+        <span>
+          <a href="https://github.com/tadesouaiaia/prsWorkshop-website" class="fa fa-github" style="color: #fcfcfc"> GitHub</a>
+        </span>
+    
+    
+      <span><a href="../../tut_python/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../module2/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script src="../../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "../..";</script>
+    <script src="../../js/theme_extra.js"></script>
+    <script src="../../js/theme.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+      <script src="../../javascripts/details.js"></script>
+      <script src="../../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>
