@@ -1,0 +1,55 @@
+site_name: prsWorkshop
+repo_url:  https://github.com/tadesouaiaia/prsWorkshop-website
+site_author: Tade Souaiaia 
+nav:
+    - Home: index.md
+    
+    - Pre-Workshop: 
+      - Checklist:        prep_list.md 
+      - Operating System:           prep_os.md 
+      - Terminal Setup:             prep_terminal.md 
+      - Software Installs:         prep_software.md 
+      - Testing:         prep_testing.md 
+        
+    - Pre-Workshop Tutorials: 
+        - Introduction:            tut_intro.md 
+        - Bash Tutorial:           tut_bash.md 
+        - R Tutorial:              tut_R.md 
+        - Python Tutorial:         tut_python.md 
+     
+    - Modules: 
+       - Module1: modules/module1.md 
+       - Module2: modules/module2.md 
+       - Module3: modules/module3.md 
+    
+    - Misc:
+        - Linux For Windows:       misc_linux.md 
+        - Mac Security:            misc_plink_problem.md 
+
+
+theme:
+    name: readthedocs 
+extra_css: [css/extra.css]
+#palette: 
+#accent: deep orange
+#highlightjs: false
+
+markdown_extensions:
+    - admonition
+    - attr_list
+    - pymdownx.details
+    - pymdownx.tabbed
+    - pymdownx.superfences
+    - pymdownx.highlight:
+        use_pygments: true
+        noclasses: true
+    - pymdownx.arithmatex:
+        generic: True
+    - pymdownx.betterem:
+        smart_enable: all
+    - pymdownx.caret
+
+extra_javascript:
+  - 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML'
+  - javascripts/details.js
+
