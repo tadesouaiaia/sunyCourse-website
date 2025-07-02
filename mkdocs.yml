@@ -1,5 +1,5 @@
-site_name: prsWorkshop
-repo_url:  https://github.com/tadesouaiaia/prsWorkshop-website
+site_name: sunyML
+repo_url:  https://github.com/tadesouaiaia/sunyCourse-website
 site_author: Tade Souaiaia 
 nav:
     - Home: index.md
